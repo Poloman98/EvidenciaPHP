@@ -14,10 +14,10 @@
           </script>";
 }
 else {
-    //echo "Registro Exitoso";
-    echo "<script type='text/javascript'>
-                alert('Consulta exitosa');
-          </script>";
+    echo "Registro Exitoso";
+    // echo "<script type='text/javascript'>
+    //             alert('Consulta exitosa');
+    //       </script>";
 }
 
 ?>
