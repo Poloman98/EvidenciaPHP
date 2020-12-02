@@ -1,0 +1,64 @@
+.body-primario 
+{
+  background-image: url("../IMGS/Fondo04.png");           
+  background-size: cover;
+  background-color: black; 
+}        
+
+form
+{
+  font-family: 'Goldman', cursive;
+}
+
+tbody
+{
+  font-family: 'Goldman', cursive;            
+}
+
+tr:nth-child(even){
+  background-color: #c9c9c9;
+}
+tr:nth-child(odd){
+  background-color: #dcdcdc;    
+}
+
+thead{
+  color : white;
+  font-family: 'Goldman', cursive;
+  font-size: 20px;
+}
+th {
+  background-color: #343a40;
+}
+table, th, td {
+  border: 1px black solid;
+  border-collapse: collapse;
+}
+
+table {
+  width: 50%;
+  font-family: 'Goldman', cursive;
+  border-radius: 40px 40px 40px 40px;
+}     
+
+.panel {
+  padding: 0 18px;
+  background-color:#343a40;
+  display: none;
+  overflow: hidden;
+}
+                      
+.venreg {
+  color: white ;
+  background-color: #343a40;             
+  border-radius: 20px 20px;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; 
+  background-color: #fff;
+  border: 1px solid #fff;
+}
